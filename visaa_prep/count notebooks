@@ -1,0 +1,4 @@
+n = int(input())
+total_pages = 1000 * n
+notebooks = total_pages // 100
+print(notebooks)

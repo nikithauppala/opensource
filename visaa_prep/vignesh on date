@@ -1,0 +1,4 @@
+def can_pay_the_bill(x, y):
+    return "YES" if x >=y else "NO"
+x,y = map(int, input().split())
+print(can_pay_the_bill(x, y))
